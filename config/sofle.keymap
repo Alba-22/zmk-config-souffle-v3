@@ -32,27 +32,27 @@
 
         switch_bluetooth_1 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <53 56 2>;
+            key-positions = <2 59 56>;
         };
 
         switch_bluetooth_0 {
             bindings = <&bt BT_SEL 0>;
-            key-positions = <53 56 1>;
+            key-positions = <1 59 56>;
         };
 
         switch_profile_2 {
             bindings = <&bt BT_SEL 2>;
-            key-positions = <53 56 3>;
+            key-positions = <3 56 59>;
         };
 
         switch_bluetooth_3 {
             bindings = <&bt BT_SEL 3>;
-            key-positions = <53 56 4>;
+            key-positions = <56 4 59>;
         };
 
         switch_bluetooth_4 {
             bindings = <&bt BT_SEL 4>;
-            key-positions = <53 56 5>;
+            key-positions = <56 5 59>;
         };
     };
 
